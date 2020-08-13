@@ -1,0 +1,121 @@
+@import "_null";
+@import "_header";
+@import "_footer";
+
+button:focus,
+button:active {
+  border: none;
+  outline: none;
+}
+
+.section {
+  &__chart {
+    max-width: 764px;
+    max-height: 525px;
+    margin: 0 auto;
+    padding: 50px 0 63px 10px;
+    background: #ffffff;
+    box-shadow: 0px 1px 4px rgba(0, 15, 38, 0.1);
+    border-radius: 6px;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // flex-direction: column;
+  }
+}
+
+.chart {
+  h2 {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 108%;
+  }
+
+  label {
+    font-size: 15px;
+    line-height: 108%;
+  }
+
+  input {
+    border: none;
+  }
+
+  &__buttons {
+    margin-right: 99px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 8px 14px 8px 0;
+      border: 1px solid #d3d8df;
+      box-sizing: border-box;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 108%;
+      background: #ffffff;
+    }
+  }
+
+  &__button-1 {
+    margin-right: 10px;
+  }
+}
+
+.fa {
+}
+
+.fa-check {
+  margin-left: 11px;
+  margin-right: 9.6px;
+  color: #12c971;
+  width: 14px;
+  height: 9.82px;
+}
+
+.fa-times {
+  margin-left: 11px;
+  padding-right: 20px;
+  color: #ff238d;
+  width: 11.07px;
+  height: 11.04px;
+}
+
+.main {
+  &__buttons {
+    margin-top: 25px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      padding: 10px 29px;
+      border: 1px solid #d3d8df;
+      box-sizing: border-box;
+      border-radius: 50px;
+      transition: background 0.2s linear;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 108%;
+      text-align: center;
+      color: #000;
+
+      &:hover {
+        color: #ffffff;
+        background: #0066ff;
+      }
+    }
+  }
+
+  &__button-before {
+    margin-right: 11px;
+  }
+}
+
+.color {
+}
