@@ -8,74 +8,216 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
     <link rel="stylesheet" href="less/style.css" />
+
     <title>Document</title>
     </heade>
 
     <body>
-        <!-- <div id="container" style="width: 500px; height: 400px;"></div> -->
-
         <div class="wraper">
             <header class="header">
-                <div class="header__bar bar-body">
-                    <ul class="bar-body__playlist">
-                        <li class="bar-body__list list-1">Тип предприятия</li>
-                        <li class="bar-body__list list-2">Категории</li>
-                        <li class="bar-body__list list-3">График работы</li>
-                        <li class="bar-body__list list-4">Оборот и нагрузка</li>
-                        <li class="bar-body__list list-5">Должности</li>
-                        <li class="bar-body__list list-6">Тип нагрузки</li>
-                    </ul>
-                    <div class="bar-body__progresbar progresbars">
-                        <div class="progresbars__cricle item-1">1</div>
-                        <div class="progresbars__linear item-2"></div>
-                        <div class="progresbars__cricle item-3">2</div>
-                        <div class="progresbars__linear item-4"></div>
-                        <div class="progresbars__cricle item-5">3</div>
-                        <div class="progresbars__linear item-6"></div>
-                        <div class="progresbars__cricle item-7">4</div>
-                        <div class="progresbars__linear item-8"></div>
-                        <div class="progresbars__cricle item-9">5</div>
-                        <div class="progresbars__linear item-10"></div>
-                        <div class="progresbars__cricle item-11">6</div>
-                    </div>
+                <div class="header__logo"></div>
+                <div class="header__nav navbar">
+                    <!-- <ul class="navbar__playlist">
+                        <li class="list-1 navbar__list">
+                            <a href="#" class="navbar__link link">домашняя страница</a>
+                        </li>
+                        <li class="list-2 navbar__list">
+                            <a href="#" class="navbar__link link">наши акции</a>
+                            <ul class="list-2__submenu submenu">
+                                <li>акции-1</li>
+                                <li>акции-2</li>
+                                <li>акции-3</li>
+                                <li>акции-4</li>
+                            </ul>
+                        </li>
+                        <li class="list-3 navbar__list">
+                            <a href="#" class="navbar__link link">Наши партнеры</a>
+                            <ul class="list-3__submenu submenu">
+                                <li>партнеры-1</li>
+                                <li>партнеры-2</li>
+                                <li>партнеры-3</li>
+                                <li>партнеры-4</li>
+                            </ul>
+                        </li>
+                        <li class="list-4 navbar__list">
+                            <a href="#" class="navbar__link link">блог</a>
+                            <ul class="list-4__submenu submenu">
+                                <li>блог-1</li>
+                                <li>блог-2</li>
+                                <li>блог-3</li>
+                                <li>блог-4</li>
+                            </ul>
+                        </li>
+                        <li class="list-5 navbar__list">
+                            <a href="#" class="navbar__link link">обратная связь</a>
+                            <ul class="list-5__submenu submenu">
+                                <li>обратная связь-1</li>
+                                <li>обратная связь-2</li>
+                                <li>обратная связь-3</li>
+                                <li>обратная связь-4</li>
+                            </ul>
+                        </li>
+						  </ul> -->
+                    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							  <span class="navbar-toggler-icon"></span>
+							</button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">домашняя страница <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													наши акции
+									</a>
+                                    <div class="dropdown-menu  animate slideIn" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">акции-1</a>
+                                        <a class="dropdown-item" href="#">акции-2</a>
+                                        <a class="dropdown-item" href="#">акции-3</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Наши партнеры
+								</a>
+                                    <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">партнеры-1</a>
+                                        <a class="dropdown-item" href="#">партнеры-2</a>
+                                        <a class="dropdown-item" href="#">партнеры-3</a>
+                                        <a class="dropdown-item" href="#">партнеры-4</a>
+                                        <a class="dropdown-item" href="#">партнеры-5</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													блог
+							</a>
+                                    <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">блог-1</a>
+                                        <a class="dropdown-item" href="#">блог-2</a>
+                                        <a class="dropdown-item" href="#">блог-3</a>
+                                        <a class="dropdown-item" href="#">блог-4</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												обратная связ
+						</a>
+                                    <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">обратная связь-1</a>
+                                        <a class="dropdown-item" href="#">обратная связь-2</a>
+                                        <a class="dropdown-item" href="#">обратная связь-3</a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                        </div>
+						  </nav> -->
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <div class="container">
+                            <a class="navbar-brand" href="#">My site</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							  <span class="navbar-toggler-icon"></span>
+							</button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														домашняя страница
+
+									</a>
+                                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+														наши акции
+								  </a>
+                                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+													Наши партнеры
+							  </a>
+                                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+												блог
+						  </a>
+                                        <!-- Here's the magic. Add the .animate and .slide-in classes to your .dropdown-menu and you're all set! -->
+                                        <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
+
+
             </header>
             <main class="main">
-                <div class="section__chart chart">
-                    <h2>График работы предприятия</h2>
-                    <label for="inputData-1">Задать интервал таблицы </label>
-                    <input class="section__myinput" type="time" name="inputData-1" id="inputData-1" value="15:00" />
-                    <input class="section__myinput" type="time" name="inputData-1" id="inputData-2" value="18:00" />
-                    <div id="container" style="width: 565; height: 283px;"></div>
-                    <div class="chart__buttons">
-                        <button type="button" data-x="a" class="chart__button-1">
-              <span class="fa fa-check" aria-hidden="true"></span> Заполнить
-              автоматически
-            </button>
-                        <button type="reset " data-x="b" class="chart__button-2">
-              <span class="fa fa-times" aria-hidden="true"></span>Очистить
-            </button>
-                    </div>
+                <div class="main__img">
+                    <img src="img/Armenia.jpg" alt="">
                 </div>
-                <div class="main__buttons">
-                    <button id="button-before " class="main__button-before">Назад</button>
-                    <button class="main__button-after">Далее</button>
+
+                <div class="parent" id="mylist">
+                    <div data-id="1" class="itmes class__1">N 1</div>
+                    <div data-id="2" class="itmes class__2">N 2</div>
+                    <div data-id="5" class="itmes class__5">N 5</div>
+                    <div data-id="3" class="itmes class__3">N 3</div>
+                    <div data-id="6" class="itmes class__6">N 6</div>
+                    <div data-id="4" class="itmes class__4">N 4</div>
+                    <div data-id="7" class="itmes class__7">N 7</div>
+                    <div data-id="9" class="itmes class__9">N 9</div>
+                    <div data-id="8" class="itmes class__8">N 8</div>
                 </div>
             </main>
-            <footer class="footer">
-                <ul class="footer__playlist">
-                    <li class="footer__list Playlist__list-1"><img src="img/icon/lookin.png" alt=""></li>
-                    <li class="footer__list Playlist__list-2">© Lookin, 2020</li>
-                    <li class="footer__list Playlist__list-3"><span><img src="img/icon/Vector.png" alt=""></span>Техническая поддержка</li>
-                </ul>
-            </footer>
+
+            <footer class="footer"></footer>
         </div>
+
+
+
+
+
+
+
+
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
-        <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-core.min.js"></script>
-        <script src="https://cdn.anychart.com/releases/8.7.1/js/anychart-heatmap.min.js"></script>
-        <script src="js/chart.js"></script>
+        <script src="js/script.js"></script>
         <!-- <script src="js/script.js "></script> -->
     </body>
 
